@@ -198,4 +198,8 @@ a {
 
 .footer {
     flex-grow: 1;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
 }
