@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,6 +146,54 @@ a {
     align-self: flex-end;
     font-size: 18px;
     font-weight: 900;
+}
+
+.main .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main .call .block {
+    flex-basis: 60%;
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.main .call .block .text {
+    color: #F9FAF8;
+}
+
+.main .call .block .text h4 {
+    font-weight: 900;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.main .call .block .text p {
+    padding: 0;
+    margin: 0;
+}
+
+.main .call .block .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .call .block .button button {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 40px;
 }
 
 .footer {
