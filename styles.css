@@ -86,6 +86,48 @@ a {
     flex-grow: 3;
 }
 
+.main .about,
+.main .quote,
+.main .call {
+    flex-grow: 1;
+}
+
+.main .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .about h3 {
+    font-size: 36px;
+    font-weigth: 900;
+    color: #1F2937;
+}
+
+.main .about .employees {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.main .about .employees .employee {
+    text-align: center;
+    width: 125px;
+}
+
+.main .about .employees .employee img {
+    border: 2px solid #3882F6;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.main .about .employees .employee p {
+    width: 125px; 
+}
+
 .footer {
     flex-grow: 1;
 }
