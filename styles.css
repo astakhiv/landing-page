@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: #1F2937;
+    padding: 8px 250px;
+}
+
+.hero .header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    padding: 75px 0;
+}
+
+.intro .text {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.intro .text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro .text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro .image {
+    flex-grow: 1;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.intro .text button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main {
+    flex-grow: 3;
+}
+
+.footer {
+    flex-grow: 1;
+}
